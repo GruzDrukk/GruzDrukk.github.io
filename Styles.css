@@ -1,0 +1,92 @@
+﻿body{
+    background-color: #5c0909;
+    margin: 0;
+    padding: 0;
+}
+
+
+#Page{ 
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #103c0d;
+}
+
+
+#Header{
+    height: 100px;
+}
+
+#Header h1{
+    margin: 0;
+    padding: 25px 50px;
+    display: inline-block;
+    position: relative;
+    top: -35px;
+}
+
+#Header h2{
+    position: absolute;
+    right: 20px;
+    crop: 20px;
+}
+
+#Menu{
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    background-color: #ffd800;
+}
+
+#Content{
+    min-height: 1000px;
+}
+
+
+#Footer{
+    width: 900px;
+    background-color: #ff6a00;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+#Menu a{
+    padding: 5px 5px;
+}
+
+#Menu a:hover{
+    background-color: #0af800;
+    color: #ffd800;
+}
+
+#MainMenu{
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+#SubMenu{
+    padding: 5px;
+    border-top: solid 1px;
+    font-size: 1.2em;
+}
+
+.MenuCurrentPage {
+    background-color: #ff0000;
+    color: #ffd800;
+}
+
+#Content{
+    margin: 10px;
+    min-height: 1000px;
+    padding-bottom: 50px;
+}
+
+#Content h2{
+    border-bottom: solid 1px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
